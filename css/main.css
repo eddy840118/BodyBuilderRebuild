@@ -101,3 +101,64 @@
     background-color:orange;
     float:right;
   }
+  /* content top banner */
+  .bg-content-top {
+    width:100%;
+    height:350px;
+    background-color: #000000;
+    background-image:url('../img/slider/bg-content-top.jpg');
+    background-size:cover;
+  }
+  /* sidebar banner */
+  .sidebar-banner {
+    width:100%;
+    height:100%;
+    background-image:url('../img/slider/bg-sidebar-banner.jpg')
+
+  }
+  /* article banner */
+  .article-banner {
+    width:100%;
+    height:450px;
+    background-color:blue;
+    background-image:url('../img/slider/bg-section-img1.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+  }
+  
+  /* subarticles */
+  .sub-articles {
+
+  }
+  .sub-articles ul {
+
+  }
+  .sub-articles ul li {
+    width: 25%;
+    margin:20px 4% 20px 0px;
+    height:300px;
+    list-style-type:none;
+    display: inline-block;
+
+  }
+  .sub-articles ul li:last-child {
+    margin-right:none;
+    margin-right:0px;
+  }
+
+  span.pill {
+    display: block;
+    color:#00aeef;
+    font-weight:bold;
+    text-transform: uppercase;
+    margin:15px 0;
+  }
+
+  .sub-articles h2 {
+    font-size:22px;
+    margin:10px 0px;
+  }
+
+  .sub-article-banner > img {
+    width:100%;
+  }
