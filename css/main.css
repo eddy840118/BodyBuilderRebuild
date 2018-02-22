@@ -6,6 +6,7 @@
   body,
   html {
     width: 100%;
+    height: 100%;
   }
   
   .main-header {
@@ -14,6 +15,12 @@
     background-color: #303030;
   }
   
+  .header-inner {
+    width:80%;
+    height:80px;
+    background-color: green;
+    margin: 0 auto;
+  }
   .app-logo {
     float:left;
     display: block;
@@ -21,7 +28,7 @@
     height: 80px;
     max-width: 100%;
     background-color: red;
-    background-image: url(../img/sm-logo.png);
+    background-image: url(../img/slider/sm-logo.jpg);
     background-repeat: no-repeat;
     background-size: contain;
   }
@@ -40,4 +47,118 @@
     padding: 10px 15px;
     color:#FFF;
     font-weight: bold;
+  }
+
+  /* main slider */
+
+  .main-slider {
+    width:100%;
+    height:380px;
+    background-color:green;
+    background-image:url('../img/slider/bg-slider1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* main container */
+
+  .main-container {
+    width: 80%;
+    height: 100%;
+    background-color: green;
+    margin: 0 auto;
+  }
+
+  /* top banner */
+  .top-banner {
+    width:100%;
+    height: 130px;
+    background-color: red;
+    background-image:url('../img/slider/sm-top-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+  /* main-content */
+  .main-content {
+    height:100%;
+    width:100%;
+
+  }
+  .content{
+    width:70%;
+    padding:1% 2.5%;
+    height:100%;
+    float:left;
+    background-color:purple;
+  }
+
+  /* sidebar */
+  .right-sidebar {
+    width:20%;
+    padding:1% 2.5%;
+    height:100%;
+    background-color:orange;
+    float:right;
+  }
+  /* content top banner */
+  .bg-content-top {
+    width:100%;
+    height:350px;
+    background-color: #000000;
+    background-image:url('../img/slider/bg-content-top.jpg');
+    background-size:cover;
+  }
+  /* sidebar banner */
+  .sidebar-banner {
+    width:100%;
+    height:100%;
+    background-image:url('../img/slider/bg-sidebar-banner.jpg')
+
+  }
+  /* article banner */
+  .article-banner {
+    width:100%;
+    height:450px;
+    background-color:blue;
+    background-image:url('../img/slider/bg-section-img1.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+  }
+  
+  /* subarticles */
+  .sub-articles {
+
+  }
+  .sub-articles ul {
+
+  }
+  .sub-articles ul li {
+    width: 25%;
+    margin:20px 4% 20px 0px;
+    height:300px;
+    list-style-type:none;
+    display: inline-block;
+
+  }
+  .sub-articles ul li:last-child {
+    margin-right:none;
+    margin-right:0px;
+  }
+
+  span.pill {
+    display: block;
+    color:#00aeef;
+    font-weight:bold;
+    text-transform: uppercase;
+    margin:15px 0;
+  }
+
+  .sub-articles h2 {
+    font-size:22px;
+    margin:10px 0px;
+  }
+
+  .sub-article-banner > img {
+    width:100%;
   }
